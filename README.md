@@ -30,7 +30,7 @@ src/game/logic/NazarickSublogic/nazarick_config.py
 
 #### Reason To Use
 
-- the most simplest greedy aproaches.
+- the most simplest greedy aproaches
 - because we work the talk, just few hours before its deadline
 - im afraid that i hit some heuristic aproaches instead of greedy, because border between those two just close
 
