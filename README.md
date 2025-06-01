@@ -85,6 +85,16 @@ src/game/logic/NazarickSublogic/nazarick_config.py
 
 ## Author Identity
 
+### The Bot Templates & Game Engine maker (the goat)
+
+- ETIMO
+
+### Bot Logic for Tubes Maker
+
+1. George Haansraj      - 123140001
+2. Michael Mathew       - 123140101
+3. Varasina Farmadani   - 123140107
+
 ## Credits 🪙
 
 This repository is adapted from <https://github.com/Etimo/diamonds2>
