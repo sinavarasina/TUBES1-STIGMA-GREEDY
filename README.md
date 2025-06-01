@@ -89,7 +89,7 @@ src/game/logic/NazarickSublogic/nazarick_config.py
 
 - ETIMO
 
-### Bot Logic for Tubes Maker
+### Bot Logic & Tubes Maker
 
 1. George Haansraj      - 123140001
 2. Michael Mathew       - 123140101
