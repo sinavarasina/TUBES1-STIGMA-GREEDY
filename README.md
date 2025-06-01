@@ -13,12 +13,12 @@ Diamonds is a programming challenge. Program a bot and compete to get the highes
 
 #### How it Works?
 
-Just by calculate the manhattan distances, then choose the closest Diamonds based on how many step it is
+Just by calculate the manhattan distances, then choose the closest Diamonds based on how many step it is\
 The Formula Used to Calculate Manhattan Distances is just
     ```
 abs(a.x - b.x) + abs(a.y - b.y)
     ```
-which is so simple.
+ which is so simple.
 
 We also have some fallback action if something bad happen, it is Random move
 it would move randomly if our bot got stuck in the same place for more than 3 times (we set the default are 3, it can be replaced tho)
