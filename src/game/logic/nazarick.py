@@ -33,4 +33,3 @@ class NazarickNPC(BaseLogic):
 
     def _positions_equal(self, a: models.Position, b: models.Position) -> bool:
         return a.x == b.x and a.y == b.y
-
