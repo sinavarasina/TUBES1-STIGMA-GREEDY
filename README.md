@@ -23,7 +23,7 @@ abs(a.x - b.x) + abs(a.y - b.y)
 We also have some fallback action if something bad happen, it is Random move
 it would move randomly if our bot got stuck in the same place for more than 3 times (we set the default are 3, it can be changed tho)
 
-it only will return to the base, if untill it reach greater or equal point that we'll declare in configuration in
+it only will return to the base, if it points reach greater or equal point that we'll declare in configuration which is at
     ```
 src/game/logic/NazarickSublogic/nazarick_config.py
     ```
