@@ -36,10 +36,10 @@ src/game/logic/NazarickSublogic/nazarick_config.py
 
 ## ii. Requirements
 
-1. Clone this repository and move to the root of this project's directory
+1. Clone this repository and move to the root of this project's source directory
 
     ```
-    git clone https://github.com/sinavarasina/Tubes1_MakamNazarick.git && cd Tubes1_MakamNazarick
+    git clone https://github.com/sinavarasina/Tubes1_MakamNazarick.git && cd Tubes1_MakamNazarick/src/
     ```
 
 2. Install dependencies
