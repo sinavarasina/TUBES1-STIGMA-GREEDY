@@ -83,7 +83,7 @@ src/game/logic/NazarickSublogic/nazarick_config.py
 - The email could be anything as long as it follows a correct email syntax
 - The name, and password could be anything without any space
 
-## Author Identity
+## iv. Author Identity
 
 ### The Bot Templates & Game Engine maker (the goat)
 
