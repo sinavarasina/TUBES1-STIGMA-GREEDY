@@ -7,22 +7,46 @@ Diamonds is a programming challenge. Program a bot and compete to get the highes
 - [Project Specification](https://docs.google.com/document/d/13cbmMVXviyu8eKQ6heqgDzt4JNNMeAZO/edit)
 - [Get Started with Diamonds](https://docs.google.com/document/d/1L92Axb89yIkom0b24D350Z1QAr8rujvHof7-kXRAp7c/edit)
 
-## Installing Dependencies 🔨
+## i. Used Algorithm
+
+### Greedy by Distance
+
+#### How it Works?
+
+Just by calculate the manhattan distances, then choose the closest Diamonds based on how many step it is
+The Formula Used to Calculate Manhattan Distances is just
+    ```
+abs(a.x - b.x) + abs(a.y - b.y)
+    ```
+which is so simple.
+
+We also have some fallback action if something bad happen, it is Random move
+it would move randomly if our bot got stuck in the same place for more than 3 times (we set the default are 3, it can be replaced tho)
+
+it only will return to the base, if untill it reach greater or equal point that we'll declare in configuration
+
+#### Reason To Use
+
+- the most simplest greedy aproaches, tho i consider to do greedy by safety but im afraid if i had some movement loop.
+- because we work the talk, just few hours before its deadline
+- im afraid that i hit some heuristic aproaches instead of greedy, because border between those two just close
+
+## ii. Requirements
 
 1. Clone this repository and move to the root of this project's directory
 
     ```
-    git clone https://github.com/haziqam/tubes1-IF2110-bot-starter-pack.git
-    cd ./tubes1-IF2110-bot-starter-pack
+    git clone https://github.com/sinavarasina/Tubes1_MakamNazarick.git && cd Tubes1_MakamNazarick
     ```
 
 2. Install dependencies
 
     ```
     pip install -r requirements.txt
-    ```
 
-## How to Run 💻
+3. Just make sure you have the game engine running
+
+## iii. How To Run
 
 1. To run one bot
 
@@ -55,6 +79,8 @@ Diamonds is a programming challenge. Program a bot and compete to get the highes
 - If you run multiple bots, make sure each emails and names are unique
 - The email could be anything as long as it follows a correct email syntax
 - The name, and password could be anything without any space
+
+## Author Identity
 
 ## Credits 🪙
 
